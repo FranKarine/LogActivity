@@ -3,8 +3,8 @@ class UsersController < ApplicationController
    @user = User.new
  end
  
- def create
+# def create
   
- end
+ #end
 
 end

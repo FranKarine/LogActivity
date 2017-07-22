@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   
    root 'welcome#home'
    get 'welcome/landing', to: 'welcome#landing'
+   
+   resources :users
   
   
 
